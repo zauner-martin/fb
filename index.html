@@ -10,7 +10,16 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <script>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="200" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+    <!--<script>
       window.fbAsyncInit = function() {
         FB.init({
           appId      : '1164659746944171',
@@ -26,7 +35,7 @@
          js.src = "//connect.facebook.net/en_US/sdk.js";
          fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-    </script>
+    </script>-->
     
     <section class="page-header">
       <h1 class="project-name">Fb</h1>
@@ -39,12 +48,12 @@
     <section class="main-content">
       <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to my Facebook Test-App.</h3>
       
-      <div
+      <!--<div
         class="fb-like"
         data-share="true"
         data-width="450"
         data-show-faces="true">
-      </div>
+      </div>-->
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/zauner-martin/fb">Fb</a> is maintained by <a href="https://github.com/zauner-martin">zauner-martin</a>.</span>
